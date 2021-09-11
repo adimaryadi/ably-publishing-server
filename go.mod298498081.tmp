@@ -1,0 +1,3 @@
+module ably-publishing-server
+
+go 1.13
