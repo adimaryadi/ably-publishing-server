@@ -20,6 +20,7 @@ func main() {
 	client   := getRedis()
 	channel  := getAblyChannel()
 
+
 	go func() {
 		for {
 			transactioWithRedis(client,channel)
